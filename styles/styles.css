@@ -25,9 +25,6 @@ grijs #899CA0 en donkergroen #1C2B32
     box-sizing: border-box;
 }
 
-button{
-    background-color: #1C2B32;
-}
 
 
 /*////////////////////////
@@ -42,15 +39,41 @@ h1{
     font-weight: 800;
     font-size: 70px;
 }
+h2{
+    color: #1C2B32;
+    text-align: center;
+
+}
+
+a{
+    color: grey;
+    text-decoration: underline;
+}
+a:hover{
+    color: grey;
+    text-decoration: none;
+}
 
 
 /*////////////////////////
     3. Areas
 ////////////////////////*/
 
-
-
 /*///////////// 3.1 Header /////////////*/
+
+header{
+
+
+
+
+}
+.header_elements{
+    max-width: 1000px;
+    padding: 200px 0px;
+    margin-left: 400px;
+    background-color: lightblue;
+  /*  background: url("../assets/images/mountains.jpg"); deze werkt niet bij mij :(*/
+}
 
 h1, .header-paragraph{
     text-align: center;
@@ -61,15 +84,113 @@ h1, .header-paragraph{
     padding: 0;
     margin: 20px 0;
     /*border: 2px solid #1C2B32;*/
-
 }
 .header-input{
     background-color: transparent;
+    border-radius: 40px 0px 0px 40px;
+    margin-right: -3.9px;
+    height: 50px;
+    width: 250px;
+    text-align: center;
+}
+.header-button{
+    background-color: #1C2B32;
+    border-radius:0px 40px 40px 0px;
+    height: 50px;
+    width: 200px;
+    color: white;
+    text-align: center;
+}
+
+#image_callcenter{
+    width: 100%;
+    margin: 10px 0px;
 }
 
 
 
-/*///////////// 3.2 Testimonial /////////////*/
+
+/*///////////// 3.2 Main element /////////////*/
+.main-element{
+    max-width: 1000px;
+    margin-left: 400px;
+}
+
+section{
+
+}
+
+.individual_client_review{
+    width: 1000px;
+    height: 170px;
+    box-shadow: 0px 0px 10px grey;
+    margin: 20px 0px;
+    border-radius: 15px;
+    text-align: center;
+    padding: 50px;
+    position: relative
+}
+
+.symbol_quote{
+    position:absolute;
+    top: 45px;
+    left: 12px;
+}
+
+.contact-button{
+    border-radius: 30px;
+    width: 150px;
+    background-color: #1C2B32;
+    color: white;
+    text-align: center;
+    height: 50px;
+}
+
+
+.answers_to_faq{
+    background-color: grey;
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+details{
+    margin: 15px 0px;
+}
+
+details:hover{
+    cursor: pointer;
+}
+
+.reviewer_image{
+    width: 44px;
+    border-radius: 50%;
+
+}
+.reviewer_name{
+    font-style: italic;
+    display: inline-block;
+    vertical-align: middle; /*Waarom wil deze dan niet de text in het midden van zijn parent (de div) zetten?*/
+    position:relative;
+    bottom: 10px;
+}
+
+
+.footer{
+    background-color: #1C2B32;
+    color: white;
+    text-align: center;
+    height: 100px;
+}
+
+
+.footer_text{
+    vertical-align: bottom; /*Hier werkt vertical-align ook niet, wat doe ik fout?*/
+    position: relative;
+    top: 40px;
+    font-size: 10px;
+}
+
 
 
 
