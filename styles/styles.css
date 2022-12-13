@@ -105,6 +105,7 @@ h1, .header-paragraph{
 #image_callcenter{
     width: 100%;
     margin: 10px 0px;
+    border-radius: 10px;
 }
 
 
@@ -128,7 +129,29 @@ section{
     border-radius: 15px;
     text-align: center;
     padding: 50px;
-    position: relative
+    position: relative;
+    text-align: left;
+}
+
+.reviewer{
+    position:absolute;
+    bottom: 10px;
+    left: 40px;
+}
+.reviewer_image{
+    width: 44px;
+    border-radius: 50%;
+    position:relative;
+
+}
+.reviewer_name{
+    font-style: italic;
+    display: inline-block;
+    vertical-align: center; /*Waarom wil deze dan niet de text in het midden van zijn parent (de div) zetten?*/
+    position: absolute; /* dus voor nu maar even zo opgelost :P*/
+    width: 300px;
+    bottom: 14px;
+    left: 55px;
 }
 
 .symbol_quote{
@@ -162,18 +185,6 @@ details:hover{
     cursor: pointer;
 }
 
-.reviewer_image{
-    width: 44px;
-    border-radius: 50%;
-
-}
-.reviewer_name{
-    font-style: italic;
-    display: inline-block;
-    vertical-align: middle; /*Waarom wil deze dan niet de text in het midden van zijn parent (de div) zetten?*/
-    position:relative;
-    bottom: 10px;
-}
 
 
 .footer{
