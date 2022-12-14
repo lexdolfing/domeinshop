@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');*/
 
 /*////////////////////////////////////////////////////////////////////////
 Table of Contents:
@@ -19,37 +19,38 @@ grijs #899CA0 en donkergroen #1C2B32
 /*////////////////////////
     1. Global Styles
 ////////////////////////*/
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 
-
 /*////////////////////////
     2. Typography
 ////////////////////////*/
 
-*{
+body {
     font-family: 'Poppins', sans-serif;
 }
 
-h1{
+h1 {
     font-weight: 800;
     font-size: 70px;
 }
-h2{
+
+h2 {
     color: #1C2B32;
     text-align: center;
 
 }
 
-a{
+a {
     color: grey;
     text-decoration: underline;
 }
-a:hover{
+
+a:hover {
     color: grey;
     text-decoration: none;
 }
@@ -61,90 +62,90 @@ a:hover{
 
 /*///////////// 3.1 Header /////////////*/
 
-header{
+header {
 
-
-
-
+    background-image: url("../assets/images/mountains.jpg");
+    background-size: cover;
 }
-.header_elements{
+
+.header_elements {
     max-width: 1000px;
-    padding: 200px 0px;
+    padding: 200px 0 400px 0;
     margin-left: 400px;
-    background-color: lightblue;
-  /*  background: url("../assets/images/mountains.jpg"); deze werkt niet bij mij :(*/
+    margin-bottom: 20px;
+
 }
 
-h1, .header-paragraph{
+h1, .header-paragraph {
     text-align: center;
     color: #1C2B32;
+    margin-bottom: 20px;
+
 }
-.header-form{
+
+.header-form {
     text-align: center;
     padding: 0;
     margin: 20px 0;
     /*border: 2px solid #1C2B32;*/
 }
-.header-input{
+
+.header-input {
     background-color: transparent;
-    border-radius: 40px 0px 0px 40px;
+    border-radius: 40px 0 0 40px;
     margin-right: -3.9px;
     height: 50px;
     width: 250px;
     text-align: center;
 }
-.header-button{
+
+.header-button {
     background-color: #1C2B32;
-    border-radius:0px 40px 40px 0px;
+    border-radius: 0 40px 40px 0;
     height: 50px;
     width: 200px;
     color: white;
     text-align: center;
 }
 
-#image_callcenter{
+#image_callcenter {
     width: 100%;
-    margin: 10px 0px;
+    margin: 10px 0;
     border-radius: 10px;
 }
 
 
-
-
-/*///////////// 3.2 Main element /////////////*/
-.main-element{
+/*///////////// 3.2 Main element ////////////*/
+.main-element {
     max-width: 1000px;
     margin-left: 400px;
 }
 
-section{
-
-}
-
-.individual_client_review{
+.individual_client_review {
     width: 1000px;
     height: 170px;
-    box-shadow: 0px 0px 10px grey;
-    margin: 20px 0px;
+    box-shadow: 0 0 10px grey;
+    margin: 20px 0;
     border-radius: 15px;
-    text-align: center;
     padding: 50px;
     position: relative;
     text-align: left;
 }
 
-.reviewer{
-    position:absolute;
+.reviewer {
+    position: absolute;
     bottom: 10px;
     left: 40px;
 }
-.reviewer_image{
+
+.reviewer_image {
     width: 44px;
     border-radius: 50%;
-    position:relative;
+    position: relative;
 
 }
-.reviewer_name{
+
+.reviewer_name {
     font-style: italic;
     display: inline-block;
     vertical-align: center; /*Waarom wil deze dan niet de text in het midden van zijn parent (de div) zetten?*/
@@ -154,13 +155,13 @@ section{
     left: 55px;
 }
 
-.symbol_quote{
-    position:absolute;
+.symbol_quote {
+    position: absolute;
     top: 45px;
     left: 12px;
 }
 
-.contact-button{
+.contact-button {
     border-radius: 30px;
     width: 150px;
     background-color: #1C2B32;
@@ -170,24 +171,23 @@ section{
 }
 
 
-.answers_to_faq{
+.answers_to_faq {
     background-color: grey;
     color: white;
     border-radius: 15px;
     padding: 10px;
 }
 
-details{
-    margin: 15px 0px;
+details {
+    margin: 15px 0;
 }
 
-details:hover{
+details:hover {
     cursor: pointer;
 }
 
 
-
-.footer{
+.footer {
     background-color: #1C2B32;
     color: white;
     text-align: center;
@@ -195,7 +195,7 @@ details:hover{
 }
 
 
-.footer_text{
+.footer_text {
     vertical-align: bottom; /*Hier werkt vertical-align ook niet, wat doe ik fout?*/
     position: relative;
     top: 40px;
@@ -203,14 +203,10 @@ details:hover{
 }
 
 
-
-
 /*///////////// 3.3 Support /////////////*/
 
 
-
 /*///////////// 3.4 Faq /////////////*/
-
 
 
 /*///////////// 3.5 Footer /////////////*/
